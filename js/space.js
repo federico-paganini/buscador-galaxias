@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const response= await fetch (`https://images-api.nasa.gov/search?q=${inputBuscar}`)
         const data = await response.json();
 
-
+        console.log(data);
 
 
     }
